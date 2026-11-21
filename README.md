@@ -74,6 +74,12 @@ clone · add · commit · push · pull 을 모두 해보면 앞으로 매일 쓸
 - **내 레포 주소로 바꾸기** — 설정 탭에서 실제 레포 주소를 넣으면 실습 명령어가 그 주소로 바뀌어요
 - **반응형** — 900px 이하에서는 가이드 → 터미널 세로 배치
 
+## macOS 실습
+
+맥용은 **[mac/](https://yudamjung.github.io/git-guide-for-windows/mac/)** 에서 사용할 수 있어요. 터미널, Finder, 일반 텍스트 편집기로 같은 Git 흐름을 연습합니다. `ls`, `pwd`, `open .`, `open -e README.md`와 `⌘S` 저장을 지원하며, 윈도우용과 진행 상황을 따로 저장해요.
+
+`mac/index.html` 하나에 스타일과 스크립트를 모두 포함해 별도 설치나 빌드 없이 실행할 수 있어요. 브라우저 시뮬레이터로, 실제 macOS 앱이나 전체 zsh 기능을 구현하지는 않습니다.
+
 ## 사용 방법
 
 설치나 다운로드 없이, 아래 링크만 누르면 바로 시작할 수 있어요.
@@ -85,6 +91,7 @@ clone · add · commit · push · pull 을 모두 해보면 앞으로 매일 쓸
 ```
 .
 ├── index.html        # 실습 화면 전체 (UI, 명령 해석기, 단계 정의)
+├── mac/index.html    # 맥용 단일 파일 실습
 ├── docs/images/      # README용 스크린샷
 └── README.md
 ```
